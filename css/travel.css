@@ -1,0 +1,40 @@
+.content-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.box{
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 10%;
+    width: 23rem;
+    height: 100rem;
+    margin: 1rem;
+
+}
+.box-img{
+    height: 50%;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.box-text{
+    background-color: rgb(110, 103, 103);
+    color: white;
+    height: 50%;
+    padding: 3%;
+}
+.box-text p{
+    margin-top: 8px;
+    font-size: .9rem;
+}
+@media only screen and (max-width:800px){
+    .box{
+        width: 20rem;
+    }
+    
+}
